@@ -1611,7 +1611,13 @@ signature), fix this by adding zoo_set2 (pat via mahadev)
 
   ZOOKEEPER-302. Quote values in JMX objectnames. (tom and pat via mahadev)
 
+  ZOOKEEPER-1474. Cannot build Zookeeper with IBM Java: use of Sun
+  MXBean classes (Adalberto Medeiros via phunt)
+
 IMPROVEMENTS:
+
+  ZOOKEEPER-1564. Allow JUnit test build with IBM Java
+      (Paulo Ricardo Paz Vital via phunt)
    
   ZOOKEEPER-64. Log system env information when initializing server and
   client (pat via mahadev)
